@@ -1,2 +1,2 @@
-# Metalica-player-Github.io
+# Metallica-player-Github.io
 Thrass awsomeness
