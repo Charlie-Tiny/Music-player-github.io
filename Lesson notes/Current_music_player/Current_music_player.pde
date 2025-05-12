@@ -26,7 +26,7 @@ void setup() {
 
   shuffleX = xStartVar;
   shuffleY = appHeight * 0.60;
-  shuffleWidth = appWidth * 0.115;
+  shuffleWidth = appWidth * 0.100;
   shuffleHeight = appHeight * 0.11;
 
 
