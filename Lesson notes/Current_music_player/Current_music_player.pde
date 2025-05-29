@@ -33,47 +33,55 @@ void setup() {
   //'println(shuffleWidth, shuffleHeight);
   float buttonWidth = appWidth/13;
   float buttonHeight = appHeight * 0.60;
-  
+
   shuffleX = buttonWidth*1;
+  
   repeat2X = buttonWidth*2;
   repeat2Y = shuffleY = buttonHeight;
   repeat2Width = repeat2Height = shuffleWidth = shuffleHeight = buttonWidth;
   repeat2Height = buttonWidth;
+  
   stopX = buttonWidth*3;
-  previousX = buttonWidth*4;
-  fastForwardX = buttonWidth*9;
-  nextX = buttonWidth*10;
+  stopY = buttonHeight;
+  stopWidth = buttonWidth;
+  stopHeight = buttonWidth;
+  
+  nextX = buttonWidth*8;
   nextY = buttonHeight;
   nextWidth = buttonWidth;
   nextHeight = buttonWidth;
+  
+  fastForwardX = buttonWidth*9;
   fastForwardY = buttonHeight;
   fastForwardWidth = buttonWidth;
   fastForwardHeight = buttonWidth;
+  
+  previousX = buttonWidth*4;
   previousY = buttonHeight;
   previousWidth = buttonWidth;
   previousHeight = buttonWidth;
-  pauseX = buttonWidth*7;
-  playX = buttonWidth*8;
+  
+  playX = buttonWidth*7;
   playY = buttonHeight;
   playWidth = buttonWidth;
   playHeight = buttonWidth;
+  
+  pauseX = buttonWidth*6;
   pauseY = buttonHeight;
   pauseWidth = buttonWidth;
   pauseHeight = buttonWidth;
-   stopY = buttonHeight;
-  stopWidth = buttonWidth;
-  stopHeight = buttonWidth;
-  fastRewindX = buttonWidth*6;
+  
+  fastRewindX = buttonWidth*5;
   fastRewindY = buttonHeight;
   fastRewindWidth = buttonWidth;
   fastRewindHeight = buttonWidth;
-  
+
 
   rect(topDisplayX, topDisplayY, topDisplayWidth, topDisplayHeight);
   //
   rect(shuffleX, shuffleY, shuffleWidth, shuffleHeight);
   //
-  rect(repeatX, repeatY, repeatWidth, repeatHeight);
+  rect(repeat2X, repeat2Y, repeat2Width, repeat2Height);
   //
   rect(stopX, stopY, stopWidth, stopHeight);
   rect(fastRewindX, fastRewindY, fastRewindWidth, fastRewindHeight);
