@@ -18,6 +18,7 @@ float fastForwardX, fastForwardY, fastForwardWidth, fastForwardHeight;
 float nextX, nextY, nextWidth, nextHeight;
 float repeatX, repeatY, repeatWidth, repeatHeight;
 float timeBarX, timeBarY, timeBarWidth, timeBarHeight;
+float timeCurrentX, timeCurrentY, timeCurrentWidth, timeCurrentHeight;
 
 void setup() {
   fullScreen();//displayWidth, displayHeight;
@@ -78,9 +79,15 @@ void setup() {
   fastRewindHeight = buttonWidth;
   
   timeBarX = buttonWidth*10;
-  timeBarY = buttonHeight+200;
+  timeBarY = buttonHeight+270;
   timeBarWidth = buttonWidth-1469;
   timeBarHeight = buttonWidth-60;
+  
+  timeCurrentX = buttonWidth*3;
+  timeCurrentY = buttonHeight+203;
+  timeCurrentWidth = buttonWidth-440;
+  timeCurrentHeight = buttonWidth-80;  
+  
   
   rect(topDisplayX, topDisplayY, topDisplayWidth, topDisplayHeight);
   //
@@ -104,7 +111,7 @@ void setup() {
   
   rect(timeBarX, timeBarY, timeBarWidth, timeBarHeight);
   
-  rect(X, Y, Width, Height);
+  rect(timeCurrentX, timeCurrentY, timeCurrentWidth, timeCurrentHeight);
 
   //
 }
