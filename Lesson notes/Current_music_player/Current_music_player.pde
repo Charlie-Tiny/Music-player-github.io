@@ -19,6 +19,7 @@ float nextX, nextY, nextWidth, nextHeight;
 float repeatX, repeatY, repeatWidth, repeatHeight;
 float timeBarX, timeBarY, timeBarWidth, timeBarHeight;
 float timeCurrentX, timeCurrentY, timeCurrentWidth, timeCurrentHeight;
+float timeLeftX, timeLeftY, timeLeftWidth, timeLeftHeight;
 
 void setup() {
   fullScreen();//displayWidth, displayHeight;
@@ -86,7 +87,12 @@ void setup() {
   timeCurrentX = buttonWidth*3;
   timeCurrentY = buttonHeight+203;
   timeCurrentWidth = buttonWidth-440;
-  timeCurrentHeight = buttonWidth-80;  
+  timeCurrentHeight = buttonWidth-80; 
+  
+  timeLeftX = buttonWidth*10;
+  timeLeftY = buttonHeight+203;
+  timeLeftWidth = buttonWidth-440;
+  timeLeftHeight = buttonWidth-80;
   
   
   rect(topDisplayX, topDisplayY, topDisplayWidth, topDisplayHeight);
@@ -112,6 +118,8 @@ void setup() {
   rect(timeBarX, timeBarY, timeBarWidth, timeBarHeight);
   
   rect(timeCurrentX, timeCurrentY, timeCurrentWidth, timeCurrentHeight);
+  
+  rect(timeLeftX, timeLeftY, timeLeftWidth, timeLeftHeight);
 
   //
 }
