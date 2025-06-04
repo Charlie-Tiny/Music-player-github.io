@@ -98,40 +98,40 @@ void setup() {
   rect(topDisplayX, topDisplayY, topDisplayWidth, topDisplayHeight);
   //
   rect(shuffleX, shuffleY, shuffleWidth, shuffleHeight);
-  text("Shuffle", shuffleX + shuffleWidth / 4, shuffleY + shuffleHeight / 2);
+  text("🔀 Shuffle", shuffleX + shuffleWidth / 4, shuffleY + shuffleHeight / 2);
   //
   rect(repeat2X, repeat2Y, repeat2Width, repeat2Height);
-  text("Repeat", repeat2X + repeat2Width / 4, repeat2Y + repeat2Height / 2);
+  text("🔁 Repeat", repeat2X + repeat2Width / 4, repeat2Y + repeat2Height / 2);
   //
   rect(stopX, stopY, stopWidth, stopHeight);
-  text("Stop", stopX + stopWidth / 4, stopY + stopHeight / 2);
+  text("⏹ Stop", stopX + stopWidth / 4, stopY + stopHeight / 2);
 
   rect(fastRewindX, fastRewindY, fastRewindWidth, fastRewindHeight);
-  text("<<", fastRewindX + fastRewindWidth / 4, fastRewindY + fastRewindHeight / 2);
+  text("⏪", fastRewindX + fastRewindWidth / 4, fastRewindY + fastRewindHeight / 2);
 
   rect(pauseX, pauseY, pauseWidth, pauseHeight);
-  text("||", pauseX + pauseWidth / 4, pauseY + pauseHeight / 2);
+  text("⏸", pauseX + pauseWidth / 4, pauseY + pauseHeight / 2);
 
   rect(playX, playY, playWidth, playHeight);
-  text(">", playX + playWidth / 4, playY + playHeight / 2);
+  text("▶", playX + playWidth / 4, playY + playHeight / 2);
 
   rect(previousX, previousY, previousWidth, previousHeight);
-  text("<", previousX + previousWidth / 4, previousY + previousHeight / 2);
+  text("⏮", previousX + previousWidth / 4, previousY + previousHeight / 2);
 
   rect(fastForwardX, fastForwardY, fastForwardWidth, fastForwardHeight);
-  text(">>", fastForwardX + fastForwardWidth / 4, fastForwardY + fastForwardHeight / 2);
+  text("⏩", fastForwardX + fastForwardWidth / 4, fastForwardY + fastForwardHeight / 2);
 
   rect(nextX, nextY, nextWidth, nextHeight);
-  text("Next", nextX + nextWidth / 4, nextY + nextHeight / 2);
+  text("⏭ Next", nextX + nextWidth / 4, nextY + nextHeight / 2);
 
   rect(timeBarX, timeBarY, timeBarWidth, timeBarHeight);
-  text("Time Bar", timeBarX + timeBarWidth / 4, timeBarY + timeBarHeight / 2);
+  text("⏳ Time Bar", timeBarX + timeBarWidth / 4, timeBarY + timeBarHeight / 2);
 
   rect(timeCurrentX, timeCurrentY, timeCurrentWidth, timeCurrentHeight);
-  text("Current Time", timeCurrentX + timeCurrentWidth / 4, timeCurrentY + timeCurrentHeight / 2);
+  text("⏰ Current Time", timeCurrentX + timeCurrentWidth / 4, timeCurrentY + timeCurrentHeight / 2);
 
   rect(timeLeftX, timeLeftY, timeLeftWidth, timeLeftHeight);
-  text("Time Left", timeLeftX + timeLeftWidth / 4, timeLeftY + timeLeftHeight / 2);
+  text("⏱ Time Left", timeLeftX + timeLeftWidth / 4, timeLeftY + timeLeftHeight / 2);
 
   //
 }
